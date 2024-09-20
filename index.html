@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahdi - 3D Interactive Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
-    <!-- CDN link to Three.js -->
+    <!-- CDN link to Three.js and OrbitControls -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/js/controls/OrbitControls.js"></script>
 </head>
 <body>
     <div id="scene-container"></div>
+    <div id="floating-labels"></div>
+
     <div class="ui-overlay">
         <div id="info-panel">
             <h1>Hi, I'm Mahdi!</h1>
@@ -22,7 +25,6 @@
         </div>
     </div>
 
-    <script src="js/three.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
