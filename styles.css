@@ -12,6 +12,22 @@ body {
     height: 100%;
 }
 
+#floating-labels {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.floating-label {
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+
 .ui-overlay {
     position: absolute;
     top: 10px;
